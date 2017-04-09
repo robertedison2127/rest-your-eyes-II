@@ -6,21 +6,21 @@ restYourEyes
 </name>
 </assembly>
 <members>
-<member name="M:restYourEyes.About.InitializeComponent">
-	<summary>
-InitializeComponent
-</summary>
-</member><member name="T:restYourEyes.About">
-	<summary>
-About
-</summary>
-</member><member name="M:restYourEyes.MainWindow.InitializeComponent">
+<member name="M:restYourEyes.MainWindow.InitializeComponent">
 	<summary>
 InitializeComponent
 </summary>
 </member><member name="T:restYourEyes.MainWindow">
 	<summary>
 MainWindow
+</summary>
+</member><member name="M:restYourEyes.About.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:restYourEyes.About">
+	<summary>
+About
 </summary>
 </member><member name="M:restYourEyes.Application.InitializeComponent">
 	<summary>
@@ -34,19 +34,12 @@ Application Entry Point.
 	<summary>
 Application
 </summary>
-</member><member name="P:restYourEyes.My.Resources.Resources.ResourceManager">
+</member><member name="M:restYourEyes.TimeModel.startTimer(System.Int32)">
 	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:restYourEyes.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="T:restYourEyes.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
+ Enter 1800000 for 30 minutes or 6000 for a quick 6 second test.
+ </summary>
+	<param name="timerDuration"></param>
+	<remarks></remarks>
 </member><member name="P:restYourEyes.My.MyWpfExtension.Application">
 	<summary>
  Returns the application object for the running application
@@ -73,6 +66,19 @@ Application
  Module used to define the properties that are available in the My Namespace for WPF
  </summary>
 	<remarks></remarks>
+</member><member name="P:restYourEyes.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:restYourEyes.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:restYourEyes.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
 </member>
 </members>
 </doc>

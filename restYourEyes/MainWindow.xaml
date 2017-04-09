@@ -1,13 +1,15 @@
-﻿<Window x:Class="MainWindow"
+﻿<!-- The custom namespace tells the Window how to find commands. -->
+    <Window x:Class="MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    Title="Rest Your Eyes II" Height="453.847" Width="517.308" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
-    <Grid>
-        <Button x:Name="btnStart" Content="Start Timer for 30 minutes" HorizontalAlignment="Left" Margin="44,38,0,0" VerticalAlignment="Top" Width="420" Height="63" FontSize="20"/>
-        <Label x:Name="lblTimer" Content="Timer is OFF" HorizontalAlignment="Left" Margin="44,138,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.783,-0.081" Width="420" Height="63" FontSize="20" HorizontalContentAlignment="Center"/>
-        <Button x:Name="btnStop" Content="Stop Timer" HorizontalAlignment="Left" Margin="44,246,0,0" VerticalAlignment="Top" Width="420" Height="63" FontSize="20"/>
-        <Button x:Name="btnClose" Content="Close" HorizontalAlignment="Left" Margin="389,354,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="btnAbout" Content="About" HorizontalAlignment="Left" Margin="44,354,0,0" VerticalAlignment="Top" Width="75"/>
+    xmlns:custom="clr-namespace:restYourEyes;assembly=restYourEyes"
+    Title="Rest Your Eyes II" Height="454" Width="517" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+  <Grid>
+        <Button x:Name="btnStart" Command="custom:ViewModel.StartCmd" Content="Start Timer for 30 minutes" HorizontalAlignment="Left" Margin="44,38,0,0" VerticalAlignment="Top" Width="420" Height="63" FontSize="20" />
+        <Label x:Name="lblTimer" Content="{Binding MessageProperty}" HorizontalAlignment="Left" Margin="44,138,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.783,-0.081" Width="420" Height="63" FontSize="20" HorizontalContentAlignment="Center"/>
+        <Button x:Name="btnStop" Command="custom:ViewModel.StopCmd" Content="Stop Timer" HorizontalAlignment="Left" Margin="44,246,0,0" VerticalAlignment="Top" Width="420" Height="63" FontSize="20"/>
+        <Button x:Name="btnClose" Command="custom:ViewModel.ExitProgramCmd" Content="Close" HorizontalAlignment="Left" Margin="389,354,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnAbout" Command="custom:ViewModel.AboutCmd" Content="About" HorizontalAlignment="Left" Margin="44,354,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>

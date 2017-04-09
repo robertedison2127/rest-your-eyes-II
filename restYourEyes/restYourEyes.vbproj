@@ -66,7 +66,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="TimeController.vb" />
+    <Compile Include="AboutViewModel.vb" />
+    <Compile Include="TimeModel.vb" />
+    <Compile Include="ViewModel.vb" />
     <Page Include="About.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

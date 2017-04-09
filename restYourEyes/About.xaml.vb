@@ -1,6 +1,11 @@
 ﻿Public Class About
+    Dim abViewModel As New AboutViewModel()
+    Dim closeCmdBinding As New CommandBinding(AboutViewModel.CloseCmd, AddressOf abViewModel.ExecutedCloseCmd, _
+                                              AddressOf abViewModel.CanExecuteCmds)
 
-    Private Sub btnClose_Click(sender As Object, e As RoutedEventArgs) Handles btnClose.Click
-        Me.Close()
+    Sub New()
+        InitializeComponent()
+        Me.DataContext = abViewModel
+        Me.CommandBindings.Add(closeCmdBinding)
     End Sub
 End Class

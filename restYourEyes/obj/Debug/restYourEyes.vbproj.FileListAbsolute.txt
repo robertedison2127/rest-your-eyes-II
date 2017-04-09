@@ -30,3 +30,19 @@ C:\Users\robert_2\Documents\Visual Studio 2012\Projects\restYourEyes\restYourEye
 C:\Users\robert_2\Documents\Visual Studio 2012\Projects\restYourEyes\restYourEyes\obj\Debug\restYourEyes.g.resources
 C:\Users\robert_2\Documents\Visual Studio 2012\Projects\restYourEyes\restYourEyes\obj\Debug\restYourEyes.Resources.resources
 C:\Users\robert_2\Documents\Visual Studio 2012\Projects\restYourEyes\restYourEyes\obj\Debug\restYourEyes.vbproj.GenerateResource.Cache
+C:\GitHub\rest-your-eyes-II\restYourEyes\bin\Debug\restYourEyes.exe.config
+C:\GitHub\rest-your-eyes-II\restYourEyes\obj\Debug\About.baml
+C:\GitHub\rest-your-eyes-II\restYourEyes\obj\Debug\About.g.vb
+C:\GitHub\rest-your-eyes-II\restYourEyes\obj\Debug\Application.g.vb
+C:\GitHub\rest-your-eyes-II\restYourEyes\obj\Debug\restYourEyes_MarkupCompile.cache
+C:\GitHub\rest-your-eyes-II\restYourEyes\bin\Debug\restYourEyes.exe
+C:\GitHub\rest-your-eyes-II\restYourEyes\bin\Debug\restYourEyes.pdb
+C:\GitHub\rest-your-eyes-II\restYourEyes\bin\Debug\restYourEyes.xml
+C:\GitHub\rest-your-eyes-II\restYourEyes\obj\Debug\MainWindow.baml
+C:\GitHub\rest-your-eyes-II\restYourEyes\obj\Debug\MainWindow.g.vb
+C:\GitHub\rest-your-eyes-II\restYourEyes\obj\Debug\restYourEyes.g.resources
+C:\GitHub\rest-your-eyes-II\restYourEyes\obj\Debug\restYourEyes.Resources.resources
+C:\GitHub\rest-your-eyes-II\restYourEyes\obj\Debug\restYourEyes.vbproj.GenerateResource.Cache
+C:\GitHub\rest-your-eyes-II\restYourEyes\obj\Debug\restYourEyes.exe
+C:\GitHub\rest-your-eyes-II\restYourEyes\obj\Debug\restYourEyes.xml
+C:\GitHub\rest-your-eyes-II\restYourEyes\obj\Debug\restYourEyes.pdb
